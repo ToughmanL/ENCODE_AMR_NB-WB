@@ -4,3 +4,6 @@ But the code on the website is a bit confusing. So I rebuilt the code into a wor
 
 The program input file is "mono 16bit .pcm" nb:8000hz, wb:16000hz and the output is ".bat" file.
 My default encoding rate is 12.2kbit/s in NB and 23.85 kbit/s in WB.
+
+The data set cna be downloaded from http://www.m-ailabs.bayern/en/the-mailabs-speech-dataset/.
+It consists of eight languages that accumulate more than 10,000 hours.
