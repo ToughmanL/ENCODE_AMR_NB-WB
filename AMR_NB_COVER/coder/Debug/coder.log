@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/11/28 星期三 16:34:27。
+     1>项目“G:\ALLPARAMETER\code\AMR_NB_COVER\coder\coder.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\coder.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt sp_enc.c
+         sp_enc.c
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ALLPARAMETER\code\AMR_NB_COVER\Debug\coder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\coder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ALLPARAMETER\code\AMR_NB_COVER\Debug\coder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ALLPARAMETER\code\AMR_NB_COVER\Debug\coder.lib" /MACHINE:X86 Debug\coder.exe.embed.manifest.res
+         Debug\coder.obj
+         Debug\interf_enc.obj
+         Debug\sp_enc.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\coder.exe.embed.manifest" /manifest Debug\coder.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         coder.vcxproj -> G:\ALLPARAMETER\code\AMR_NB_COVER\Debug\coder.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\coder.unsuccessfulbuild”。
+         正在对“Debug\coder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\ALLPARAMETER\code\AMR_NB_COVER\coder\coder.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.81

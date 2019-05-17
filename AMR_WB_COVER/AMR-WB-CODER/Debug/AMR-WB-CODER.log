@@ -1,0 +1,49 @@
+﻿生成启动时间为 2018/12/10 星期一 15:19:13。
+     1>项目“G:\ALLPARAMETER\code\AMR_WB_COVER\AMR-WB-CODER\AMR-WB-CODER.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\AMR-WB-CODER.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt encoder.c
+         encoder.c
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(31): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(33): warning C4013: “coder”未定义；假设外部返回 int
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(21): warning C4101: “j”: 未引用的局部变量
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(126): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(150): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\allparameter\code\amr_wb_cover\amr-wb-coder\encoder.c(189): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ALLPARAMETER\code\AMR_WB_COVER\Debug\AMR-WB-CODER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AMR-WB-CODER.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ALLPARAMETER\code\AMR_WB_COVER\Debug\AMR-WB-CODER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ALLPARAMETER\code\AMR_WB_COVER\Debug\AMR-WB-CODER.lib" /MACHINE:X86 "Debug\AMR-WB-CODER.exe.embed.manifest.res"
+         Debug\encoder.obj
+         Debug\enc_acelp.obj
+         Debug\enc_dtx.obj
+         Debug\enc_gain.obj
+         Debug\enc_if.obj
+         Debug\enc_lpc.obj
+         Debug\enc_main.obj
+         Debug\enc_rom.obj
+         Debug\enc_util.obj
+         Debug\if_rom.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\AMR-WB-CODER.exe.embed.manifest" /manifest "Debug\AMR-WB-CODER.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         AMR-WB-CODER.vcxproj -> G:\ALLPARAMETER\code\AMR_WB_COVER\Debug\AMR-WB-CODER.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\AMR-WB-CODER.unsuccessfulbuild”。
+         正在对“Debug\AMR-WB-CODER.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\ALLPARAMETER\code\AMR_WB_COVER\AMR-WB-CODER\AMR-WB-CODER.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.75

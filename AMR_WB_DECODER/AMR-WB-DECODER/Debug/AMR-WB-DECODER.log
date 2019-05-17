@@ -1,0 +1,76 @@
+﻿生成启动时间为 2018/12/28 星期五 11:53:53。
+     1>项目“G:\ALLPARAMETER\code\AMR_WB_DECODER\AMR-WB-DECODER\AMR-WB-DECODER.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\AMR-WB-DECODER.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt decoder.c enc_acelp.c enc_dtx.c enc_gain.c enc_if.c enc_lpc.c enc_main.c enc_rom.c enc_util.c if_rom.c
+         if_rom.c
+         enc_util.c
+         enc_rom.c
+         enc_main.c
+         enc_lpc.c
+         enc_if.c
+         enc_gain.c
+         enc_dtx.c
+         enc_acelp.c
+         decoder.c
+     1>g:\allparameter\code\amr_wb_decoder\amr-wb-decoder\decoder.c(38): warning C4013: “decoder”未定义；假设外部返回 int
+     1>g:\allparameter\code\amr_wb_decoder\amr-wb-decoder\decoder.c(90): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\allparameter\code\amr_wb_decoder\amr-wb-decoder\decoder.c(100): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AMR-WB-DECODER.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.lib" /MACHINE:X86 "Debug\AMR-WB-DECODER.exe.embed.manifest.res"
+         Debug\decoder.obj
+         Debug\dec_acelp.obj
+         Debug\dec_dtx.obj
+         Debug\dec_gain.obj
+         Debug\dec_if.obj
+         Debug\dec_lpc.obj
+         Debug\dec_main.obj
+         Debug\dec_rom.obj
+         Debug\dec_util.obj
+         Debug\enc_acelp.obj
+         Debug\enc_dtx.obj
+         Debug\enc_gain.obj
+         Debug\enc_if.obj
+         Debug\enc_lpc.obj
+         Debug\enc_main.obj
+         Debug\enc_rom.obj
+         Debug\enc_util.obj
+         Debug\if_rom.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\AMR-WB-DECODER.exe.embed.manifest" /manifest "Debug\AMR-WB-DECODER.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\AMR-WB-DECODER.exe.embed.manifest.res" Debug\AMR-WB-DECODER_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AMR-WB-DECODER.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.lib" /MACHINE:X86 "Debug\AMR-WB-DECODER.exe.embed.manifest.res"
+         Debug\decoder.obj
+         Debug\dec_acelp.obj
+         Debug\dec_dtx.obj
+         Debug\dec_gain.obj
+         Debug\dec_if.obj
+         Debug\dec_lpc.obj
+         Debug\dec_main.obj
+         Debug\dec_rom.obj
+         Debug\dec_util.obj
+         Debug\enc_acelp.obj
+         Debug\enc_dtx.obj
+         Debug\enc_gain.obj
+         Debug\enc_if.obj
+         Debug\enc_lpc.obj
+         Debug\enc_main.obj
+         Debug\enc_rom.obj
+         Debug\enc_util.obj
+         Debug\if_rom.obj
+         AMR-WB-DECODER.vcxproj -> G:\ALLPARAMETER\code\AMR_WB_DECODER\Debug\AMR-WB-DECODER.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\AMR-WB-DECODER.unsuccessfulbuild”。
+         正在对“Debug\AMR-WB-DECODER.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\ALLPARAMETER\code\AMR_WB_DECODER\AMR-WB-DECODER\AMR-WB-DECODER.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.94
